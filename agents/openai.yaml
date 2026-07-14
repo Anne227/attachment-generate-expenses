@@ -1,0 +1,4 @@
+interface:
+  display_name: "附件生成费用"
+  short_description: "从附件识别多条费用，经关键字段确认后批量保存并校验每刻账本"
+  default_prompt: "使用 $attachment-generate-expenses 识别附件中的费用明细，确认关键字段后保存到每刻账本。"
